@@ -2,6 +2,11 @@
 - ts is a js superset - builds on js but adds new features and advantages
 - ts cannot be executed by the browser or node
 - environments where we can execute js do not support ts
+- ts is a programming language but also a tool - powerful compiler that runs over your code to compile ts code to js
+- ts --> js
+- ts adds new features via the compiler
+- adds types to the js lanaguage that gives you the opportunity to type things.
+- extra error checking
 - 
 
 
