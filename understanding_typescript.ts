@@ -7,7 +7,7 @@
 - ts adds new features via the compiler
 - adds types to the js lanaguage that gives you the opportunity to type things.
 - extra error checking
-- 
+-  
 
 
 2 TYPESCRIPT BASICS & BASIC TYPES
