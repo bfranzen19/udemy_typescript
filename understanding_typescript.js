@@ -10,7 +10,7 @@
 - any time you access the value of an input element in js, it is always a string.
 - can convert a variable to a number by add + in front of the variable
 - ! means the variable will never be null
-- :type (example -- :number) typecasts to this type
+- :type (example -- :number) typecasts to this type 
 
 
 2 TYPESCRIPT BASICS & BASIC TYPES
