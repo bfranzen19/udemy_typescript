@@ -10,7 +10,15 @@
 - any time you access the value of an input element in js, it is always a string.
 - can convert a variable to a number by add + in front of the variable
 - ! means the variable will never be null
-- :type (example -- :number) typecasts to this type 
+- :type (example -- :number) typecasts to this type
+- ts advantages:
+    - types
+    - next-gen js features (compiled down for older browsers)
+    - non-js features like interfaces and generics
+    - meta-programming features like decorators
+    - rich configuration options
+    - modern tooling that helps even in non-ts projects
+    
 
 
 2 TYPESCRIPT BASICS & BASIC TYPES
