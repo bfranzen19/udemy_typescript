@@ -87,10 +87,30 @@
     - ts uses "static types", set during development
 
 - important: type casting
+    - in ts, you work with types like string or number all the time
+        - string, not String
+        - number, not Number
+    - core primitives in ts are all lowercase
 
 - working with numbers, strings, & booleans
 
 - type assignment & type inference
+    - type inference: ts tries to understand what type you have in a variable / constant
+    - seen in the function params definitions
+        function add(n1: number, n2: number, showResult: boolean, phrase: string) {}
+
+        const number = 5;
+        // can also set this variable like this -- let number1: number = 5;
+        // this is considered bad practice UNLESS you create the varaible without a value
+        let number1: number; // eventually, i will store a number here
+        number1 = 5;
+
+        this is the same as:
+        let number1 = 5;    // tells ts that this is a number variable
+
+        this avoides this error:
+        let number1;    // no type, i can store anything in this variable
+        number1 = '5';
 
 - object types
 
