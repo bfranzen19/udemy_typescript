@@ -83,7 +83,8 @@
     - don't have app.js and app.ts open at the same time, that may cause errors. just close the js file.
 
 - ts types vs js types
-    - 
+    - js uses "dynamic types", resolved at runtime
+    - ts uses "static types", set during development
 
 - important: type casting
 
