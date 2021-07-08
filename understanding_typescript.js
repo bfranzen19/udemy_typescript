@@ -113,8 +113,34 @@
         number1 = '5';
 
 - object types
+    - any js object, more specific types (types of objects) are possible
+        { age: 30 }
+
+    - typescript uses key, type pairs instead of key, value pairs
 
 - nested objects & types
+    - object types can also be created for nested objects:
+        // js object
+        const product = {
+            id: 'abc1',
+            price: 12.99,
+            tags: ['great-offer', 'hot-and-new'],
+            details: {
+                title: 'red carpet',
+                description: 'great carpet -- almost brand new!'
+            }
+        }
+
+        // this would be the type of this object
+        {
+            id: string;
+            price: number;
+            tags: string[];
+            details: {
+                title: string;
+                description: string;
+            }
+        }
 
 - arrays types
 
