@@ -143,6 +143,9 @@
         }
 
 - arrays types
+    - any js array, type can be flexible or struct (regarding element types)
+        [1,2,3]
+    - ts: type[] --> string[] 
 
 - working with tuples
 

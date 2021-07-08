@@ -4,10 +4,23 @@
 
 
 
+// ------------------------------------------------------------
 
+const person = { // best way
+    name: "bt",
+    age: 34,
+    hobbies: ['sports', 'cooking']
+}
 
+// let favoriteActivies: string[];  // only if we will populate it later
+let favoriteActivies: any[]; // mixed
 
+// console.log('person: ', person); 
 
+for(const hobby of person.hobbies) {
+    console.log(hobby);  
+    // hobby.toLocaleUpperCase; // can use any string method on hobby now
+}
 
 // ------------------------------------------------------------
 
@@ -23,7 +36,7 @@
 // const person = { // best way
 //     name: "bt",
 //     age: 34
-}
+// }
 
 // console.log('person: ', person.nickname); // throws error
 // console.log('person: ', person); // semi colon after each line when hovered
