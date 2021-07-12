@@ -145,13 +145,22 @@
 - arrays types
     - any js array, type can be flexible or struct (regarding element types)
         [1,2,3]
-    - ts: type[] --> string[] 
+    - ts: type[] --> string[]
 
 - working with tuples
+    - added by ts: fixed-length, fixed-type array
+        [1,2]
+    - use if you know you want a very specific, unchanged structure on an array
 
 - working with enums
+    - specific identifiers, global constants, that will be represented as numbers but with a human-readable label
+    -  added by ts: automatically enumerated global constant identifiers
+        enum {NEW, OLD}
 
 - the "any" type
+    - can store anything
+    - *
+    - any kind of value, no specific type assignment
 
 - union types
 

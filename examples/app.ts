@@ -1,26 +1,70 @@
-// ------------------------------------------------------------
-
-
-
 
 
 // ------------------------------------------------------------
+// any type -- just becomes js
 
-const person = { // best way
-    name: "bt",
+const person = {
+    name: 'bt',
     age: 34,
-    hobbies: ['sports', 'cooking']
-}
+    hobbies: ['sports', 'cooking'],
+};
 
-// let favoriteActivies: string[];  // only if we will populate it later
-let favoriteActivies: any[]; // mixed
+// ------------------------------------------------------------
+// // enum
+// enum Role { ADMIN, READ_ONLY, AUTHOR };
+// // admin == 0, read_only == 1, author == 2
 
-// console.log('person: ', person); 
+// // an assign any number, either just increment from the first element or set all of them individually
+// // enum Role { ADMIN = 5, READ_ONLY = 24, AUTHOR = 0 };
+// // admin == 5, read_only == 24, author == 0
 
-for(const hobby of person.hobbies) {
-    console.log(hobby);  
-    // hobby.toLocaleUpperCase; // can use any string method on hobby now
-}
+// const person = {
+//     name: 'bt',
+//     age: 34,
+//     hobbies: ['sports', 'cooking'],
+//     role: Role.ADMIN    // 0
+// };
+
+// console.log(person.role);   // admin
+
+// ------------------------------------------------------------
+// tuples
+// const person: {
+//     name: string;
+//     age: number;
+//     hobbies: string[];
+//     role: [number, string];// 2 elements, 1st - number, 2nd - str
+// } = { 
+//     name: 'bt',
+//     age: 34,
+//     hobbies: ['sports', 'cooking'],
+//     // role: [2, 'author'] // as array
+//     role: [2, 'author'] // as a tuple
+// };
+
+// person.role.push('admin'); // this would work if array
+// person.role[1] = 10;    // this would also work if array
+
+// person.role = [0, 'admin', 'user']; // won't work with tuple
+// person.role.push('admin');  // will work with tuple, beware
+
+// ------------------------------------------------------------
+
+// const person = { // best way
+//     name: "bt",
+//     age: 34,
+//     hobbies: ['sports', 'cooking']
+// };
+
+// // let favoriteActivies: string[];  // only if we will populate it later
+// let favoriteActivies: any[]; // mixed
+
+// // console.log('person: ', person); 
+
+// for(const hobby of person.hobbies) {
+//     console.log(hobby);  
+//     // hobby.toLocaleUpperCase; // can use any string method on hobby now
+// }
 
 // ------------------------------------------------------------
 
